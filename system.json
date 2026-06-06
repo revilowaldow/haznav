@@ -1,0 +1,117 @@
+{
+  "id": "hazard-navigator",
+  "title": "Hazard Navigator",
+  "url": "https://github.com/revilowaldow/haznav/",
+  "version": "1.0.0",
+  "description": "A system to enable play of the Hazard Navigator System.",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "license": "LICENSE",
+  "relationships": {
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Oliver Warlow",
+      "discord": "revilowaldow",
+      "flags": {}
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "grid": {
+    "distance": 2,
+    "units": "m"
+  },
+  "primaryTokenAttribute": "injury",
+  "secondaryTokenAttribute": "opportunity",
+  "packs": [
+    {
+      "name": "classes",
+      "label": "Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "hazard-navigator",
+      "flags": {}
+    },
+    {
+      "name": "archetypes",
+      "label": "Archetypes",
+      "path": "packs/archetypes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "hazard-navigator",
+      "flags": {}
+    },
+    {
+      "name": "natures",
+      "label": "Natures",
+      "path": "packs/natures",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "hazard-navigator",
+      "flags": {}
+    },
+    {
+      "name": "talents",
+      "label": "Talents",
+      "path": "packs/talents",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "hazard-navigator",
+      "flags": {}
+    },
+    {
+      "name": "items",
+      "label": "Items",
+      "path": "packs/items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "hazard-navigator",
+      "flags": {}
+    },
+    {
+      "name": "abominations",
+      "label": "Abominations",
+      "path": "packs/abominations",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "hazard-navigator",
+      "flags": {}
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/revilowaldow/haznav-5e/main/module.json",
+  "download": "https://github.com/revilowaldow/haznav-5e/main/module.zip"
+}
