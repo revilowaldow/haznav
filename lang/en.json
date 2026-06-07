@@ -1,33 +1,197 @@
 {
 	"HAZNAV": {
 		"System": {
-			"Hazard Navigator": "Hazard Navigator"
+			"HazardNavigator": "Hazard Navigator"
+		},
+		"Mechanics": {
+			"Volatility": {
+				"Volatility": "Volatility",
+				"Volatile": "Volatile"
+			},
+			"Stress": {
+				"Stress": "Stress",
+				"Breakdown": "Breakdown"
+			},
+			"Opportunity": {
+				"Opportunity": "Opportunity",
+				"States": {
+					"Free": "Free",
+					"Normal": "Normal",
+					"Restricted": "Restricted"
+				}
+			},
+			"Leverage": {
+				"Lever": "Lever",
+				"Leverage": "Leverage",
+				"Negotiation": "Negotiation",
+				"Minor": "Minor",
+				"Major": "Major",
+				"Recuperation": "Recuperation"
+			},
+			"Penalties": {
+				"PenaltyCounter": "Penalty Counter"
+			},
+			"Fate": {
+				"FatePoint": "Fate Point"
+			},
+			"Scale": {
+				"Ranges": {
+					"Close": "Close",
+					"Short": "Short",
+					"Medium": "Medium",
+					"Long": "Long",
+					"Extreme": "Extreme"
+				}
+			},
+			"Checks": {
+				"Check": "Check",
+				"Advantage": "Advantage",
+				"Disadvantage": "Disadvantage",
+				"Complexity": "Complexity",
+				"BoS": "Burden of Success",
+				"BoF": "Burden of Failure",
+				"Contest": "Contest"
+			},
+			"Combat": {
+				"Severity": "Severity",
+				"Harm": "Harm",
+				"InjuryPoint": "Injury Point",
+				"InjuryThreshold": "Injury Threshold"
+			},
+			"Time": {
+				"Scene": "Scene",
+				"FullReset": "Full Reset",
+				"Turn": "Turn",
+				"Action": "Action",
+				"Interrupt": "Interrupt"
+			}
+		},
+		"Class": {
+			"Warrior": {
+				"Name": "Warrior",
+				"Subtype": {
+					"Brawler": "Brawler",
+					"Solider": "Solider"
+				},
+				"Lever": {
+					"Aim": "Aim",
+					"Grit": "Grit",
+					"Resilience": "Resilience",
+					"Stamina": "Stamina",
+					"Strength": "Strength",
+					"Training": "Training"
+				},
+				"Ability": {
+					"AdditionalAttacks": "Additional Attacks",
+					"BattleAdvantage": "Battle Advantage",
+					"Toughness": "Toughness",
+					"Energy": "Energy"
+				}
+			},
+			"Caster": {
+				"Name": "Caster",
+				"Subtype": {
+					"Arcanothurge": "Arcanothurge",
+					"Ideationist": "Ideationist"
+				},
+				"Lever": {
+					"DivineFavour": "Divine Favour",
+					"Education": "Education",
+					"EldritchPower": "Eldritch Power",
+					"Mysticism": "Mysticism",
+					"Psionics": "Psionics",
+					"Wisdom": "Wisdom"
+				},
+				"Ability": {
+					"ArcaneSpellcasting": "Arcane Spellcasting",
+					"ArcaneWard": "Arcane Ward",
+					"IdeationCasting": "Ideation Casting",
+					"MagicAttack": "Magic Attack",
+					"MinorManifestation": "Minor Manifestation"
+				}
+			},
+			"Agent": {
+				"Name": "Agent",
+				"Subtype": {
+					"Saboteur": "Saboteur",
+					"Supporter": "Supporter"
+				},
+				"Lever": {
+					"Background": "Background",
+					"Charm": "Charm",
+					"Cunning": "Cunning",
+					"Luck": "Luck",
+					"Perception": "Perception",
+					"Speed": "Speed"
+				},
+				"Ability": {
+					"ExcellentAssistance": "Excellent Assistance",
+					"Exploit": "Exploit",
+					"MaximiseSupport": "Maximise Support",
+					"Mobility": "Mobility",
+					"Reliability": "Reliability",
+					"SeizeOpportunity": "Seize Opportunity"
+				}
+			}
+		},
+		"Statistic": {
+			"Statistic": "Statistic",
+			"Score": "Score",
+			"Modifier": "Modifier",
+			"Superhuman": "Superhuman",
+			"Statistics": {
+				"Strength": "Strength",
+				"Finesse": "Finesse",
+				"Intuition": "Intuition",
+				"Intellect": "Intellect"
+			}
 		},
 		"Skill": {
-			"AcrobaticsBodyControl": "Acrobatics & Body Control",
-			"ActingPerformance": "Acting & Performance",
-			"Arcanothurgy": "Arcanothurgy",
-			"ArtMusic": "Art & Music",
-			"CloseQuartersCombat": "Close Quarters Combat",
-			"CombatFinesse": "Combat Finesse",
-			"DeceptionMisdirection": "Deception & Misdirection",
-			"Defence": "Defence",
-			"EloquenceOration": "Eloquence & Oration",
-			"EngineeringMathematicsPhysics": "Engineering, Mathematics & Physics",
-			"FitnessConditioning": "Fitness & Conditioning",
-			"HeavyWeaponOperation": "Heavy Weapon Operation",
-			"HistoryPoliticsGeography": "History, Politics & Geography",
-			"LawPhilosophy": "Law & Philosophy",
-			"ManualLabour": "Manual Labour",
-			"MedicineBiology": "Medicine & Biology",
-			"PeopleReading": "People Reading",
-			"RangedCombat": "Ranged Combat",
-			"Religion": "Religion",
-			"RidingAnimalControl": "Riding & Animal Control",
-			"SurvivalNatureCrafting": "Survival & Nature Crafting",
-			"TinkeringRepair": "Tinkering & Repair",
-			"UnarmedMartial Arts": "Unarmed / Martial Arts",
-			"VehicleControl": "Vehicle Control"
+			"Skill": "Skill",
+			"Level": {
+				"Level": "Level",
+				"Levels": {
+					"0": "",
+					"1": "",
+					"2": "",
+					"3": "Expert"
+				}
+			},
+			"Skills": {
+				"AcrobaticsBodyControl": "Acrobatics & Body Control",
+				"ActingPerformance": "Acting & Performance",
+				"Arcanothurgy": "Arcanothurgy",
+				"ArtMusic": "Art & Music",
+				"CloseQuartersCombat": "Close Quarters Combat",
+				"CombatFinesse": "Combat Finesse",
+				"DeceptionMisdirection": "Deception & Misdirection",
+				"Defence": "Defence",
+				"EloquenceOration": "Eloquence & Oration",
+				"EngineeringMathematicsPhysics": "Engineering, Mathematics & Physics",
+				"FitnessConditioning": "Fitness & Conditioning",
+				"HeavyWeaponOperation": "Heavy Weapon Operation",
+				"HistoryPoliticsGeography": "History, Politics & Geography",
+				"LawPhilosophy": "Law & Philosophy",
+				"ManualLabour": "Manual Labour",
+				"MedicineBiology": "Medicine & Biology",
+				"PeopleReading": "People Reading",
+				"RangedCombat": "Ranged Combat",
+				"Religion": "Religion",
+				"RidingAnimalControl": "Riding & Animal Control",
+				"SurvivalNatureCrafting": "Survival & Nature Crafting",
+				"TinkeringRepair": "Tinkering & Repair",
+				"UnarmedMartial Arts": "Unarmed / Martial Arts",
+				"VehicleControl": "Vehicle Control"
+			}
+		},
+		"Item": {
+			"Motivation": {
+				"Name": "Motivation Name",
+				"Description": "Description",
+				"Levers": "Levers",
+				"Lever": "Lever",
+				"LeverPlaceholder": "Enter lever description"
+			}
 		},
 		"Sheet": {
 			"Label": "Hazard Navigator Character",
