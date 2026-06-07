@@ -1,3 +1,44 @@
 {
-	"HAZNAV.Skill.CloseQuartersCombat": "Close Quarters Combat"
+	"HAZNAV": {
+		"System": {
+			"Hazard Navigator": "Hazard Navigator"
+		},
+		"Skill": {
+			"AcrobaticsBodyControl": "Acrobatics & Body Control",
+			"ActingPerformance": "Acting & Performance",
+			"Arcanothurgy": "Arcanothurgy",
+			"ArtMusic": "Art & Music",
+			"CloseQuartersCombat": "Close Quarters Combat",
+			"CombatFinesse": "Combat Finesse",
+			"DeceptionMisdirection": "Deception & Misdirection",
+			"Defence": "Defence",
+			"EloquenceOration": "Eloquence & Oration",
+			"EngineeringMathematicsPhysics": "Engineering, Mathematics & Physics",
+			"FitnessConditioning": "Fitness & Conditioning",
+			"HeavyWeaponOperation": "Heavy Weapon Operation",
+			"HistoryPoliticsGeography": "History, Politics & Geography",
+			"LawPhilosophy": "Law & Philosophy",
+			"ManualLabour": "Manual Labour",
+			"MedicineBiology": "Medicine & Biology",
+			"PeopleReading": "People Reading",
+			"RangedCombat": "Ranged Combat",
+			"Religion": "Religion",
+			"RidingAnimalControl": "Riding & Animal Control",
+			"SurvivalNatureCrafting": "Survival & Nature Crafting",
+			"TinkeringRepair": "Tinkering & Repair",
+			"UnarmedMartial Arts": "Unarmed / Martial Arts",
+			"VehicleControl": "Vehicle Control"
+		},
+		"Sheet": {
+			"Label": "Hazard Navigator Character",
+			"CharacterName": "Character Name",
+			"CoreStatistics": "Core Statistics"
+		},
+		"Roll": {
+			"DialogTitle": "Hazard Navigator Roll",
+			"ChooseVariant": "Choose a roll variant:",
+			"Cancel": "Cancel",
+			"Title": "Roll {formula} {modifier}"
+		}
+	}
 }

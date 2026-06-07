@@ -50,7 +50,7 @@
 		}
 	],
     "esmodules": [
-        
+		"haznav.mjs"
     ],
     "styles": [
         "haznav.css"
